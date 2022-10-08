@@ -10,6 +10,8 @@ extras_require = {
         "pytest-xdist>=1.30.0",
         "pytest-trio>=0.5.2",
         "factory-boy>=2.12.0,<3.0.0",
+        # "anyio>=1.4.0",
+        # "p2pclient>=0.2.0"
     ],
     "lint": [
         "flake8==3.7.9",  # flake8 is not semver: it has added new warnings at minor releases
@@ -22,9 +24,9 @@ extras_require = {
         "trio-typing~=0.5.0",
     ],
     "doc": [
-        "Sphinx>=2.2.1,<3",
-        "sphinx_rtd_theme>=0.4.3,<=1",
-        "towncrier>=19.2.0, <20",
+        "Sphinx>=5.2.3",
+        "sphinx_rtd_theme>=1.0.0",
+        "towncrier>=22.8.0",
     ],
     "dev": [
         "bumpversion>=0.5.3,<1",
